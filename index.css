@@ -40,6 +40,21 @@ nav .right {
 button:hover{
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 5px;
+    }
+    .signup {
+        background-color: #5D5DFF;
+        color: white;
+        padding: 5px 10px;
+    }
+  }
+
+
+
 /* --------------- hero section -----  */
 .hero {
     height: 1000.64px;
@@ -120,7 +135,13 @@ button:hover{
     left: -40;
     z-index: 1;
 }
-
+@media only screen and (max-width: 600px) {
+    .hero_container .main_heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 45px;
+    }
+  }
 /* ------------------ features section ------------  */
 
 .features {
