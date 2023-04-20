@@ -274,6 +274,15 @@ button:hover {
 
     color: #9BA9B4;
 }
+
+@media only screen and (max-width: 1000px) {
+    .features_heading {
+        width: 74%;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+}
 @media only screen and (max-width: 600px) {
 
     .features_heading {
