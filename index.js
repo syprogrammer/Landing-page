@@ -1,6 +1,6 @@
 console.log("connected to landing page")
-const freetrial = document.getElementById("freetrial");
-freetrial.addEventListener("click", scroll);
+const freetrialbtn = document.getElementById("freetrial");
+freetrialbtn.addEventListener("click", scroll);
 
 
 function scroll() {
