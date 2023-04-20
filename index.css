@@ -401,7 +401,7 @@ button:hover {
 
     color: #ABABFF;
 }
-.loop_container input::placeholder { 
+::placeholder { 
     color: #ABABFF;
     opacity: 1; /* Firefox */
   }
