@@ -37,21 +37,22 @@ nav .right {
     right: 0;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
 
 @media only screen and (max-width: 600px) {
-    nav{
+    nav {
         padding: 5px;
     }
+
     .signup {
         background-color: #5D5DFF;
         color: white;
         padding: 5px 10px;
     }
-  }
+}
 
 
 
@@ -135,13 +136,67 @@ button:hover{
     left: -40;
     z-index: 1;
 }
+
 @media only screen and (max-width: 600px) {
+    .hero {
+        height: 600.64px;
+        margin-top: 8rem;
+    }
     .hero_container .main_heading {
         font-size: 32px;
         text-align: center;
         line-height: 45px;
     }
-  }
+
+    .hero_container .subheading {
+        color: #9BA9B4;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .video_thumbnail img {
+        width: 100%;
+    }
+
+    .background-image {
+        top: 5%;
+    }
+
+    .background-image img {
+        width: 50%;
+    }
+    .play_button img{
+        width: 50%;
+    }
+    .play_button {
+        top: 5%;
+        left: 50%;
+    }
+
+
+}
+@media only screen and (max-width: 1000px) {
+    .video_thumbnail img {
+        width: 90%;
+    }
+    
+    .background-image {
+        top: 5%;
+    }
+
+    .background-image img {
+        width: 80%;
+    }
+    .play_button img{
+        width: 80%;
+    }
+    .play_button {
+        top: 10%;
+        left: 50%;
+    }
+}
 /* ------------------ features section ------------  */
 
 .features {
@@ -220,9 +275,10 @@ button:hover{
 }
 
 /* --------------- Loop section --------------- */
-.loop_section{
+.loop_section {
     width: 100%;
 }
+
 .loop_container {
     width: 90%;
     height: 206px;
