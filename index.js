@@ -4,6 +4,6 @@ freetrialbtn.addEventListener("click", scroll);
 
 
 function scroll() {
-    const element = document.getElementById("loop");
-    element.scrollIntoView();
-  }
+  const element = document.getElementById("loop");
+  element.scrollIntoView();
+}
